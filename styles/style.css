@@ -7,6 +7,7 @@
   --main-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
+  --hero-background-color: #c4c4c4;
 
   --main-color: #212121;
   --secondary-color: #757575;
@@ -82,10 +83,13 @@ ul {
 
   color: #000000;
 }
+
 /* nav-site */
+
 .main-nav {
   align-items: center;
 }
+
 .nav-site {
   display: flex;
   align-items: center;
@@ -120,6 +124,7 @@ ul {
   font-weight: var(--average-font-weight);
   letter-spacing: 0.02em;
 }
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -148,8 +153,9 @@ ul {
 }
 
 /* hero */
+
 .hero {
-  background-color: var(--dark-background-color);
+  background-color: var(--hero-background-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 280px;
@@ -189,12 +195,30 @@ ul {
   background-color: var(--accent-color);
   color: var(--dark-main-color);
 }
+/* hero-overlay */
+.overlay {
+  max-width: 1600px;
+  max-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  outline: 1px solid teal;
+}
 
 /* features */
+
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .features-list {
   display: flex;
 }
