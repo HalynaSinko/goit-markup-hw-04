@@ -306,7 +306,8 @@ ul {
 }
 
 .works-title,
-.team-title {
+.team-title,
+.customers-title {
   margin-top: 0px;
   margin-bottom: 50px;
 
@@ -315,6 +316,7 @@ ul {
   line-height: 1.17;
   text-align: center;
 }
+
 /* team  */
 
 .team {
@@ -369,6 +371,14 @@ ul {
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: var(--average-font-weight);
+}
+
+/* customers */
+
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--main-background-color);
 }
 
 /* footer */
