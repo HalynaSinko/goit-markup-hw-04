@@ -152,21 +152,6 @@ ul {
   color: var(--accent-color);
 }
 
-/* Псевдоэлементы контактов хедера */
-
-.contact::before {
-  content: '';
-  height: 16px;
-  width: 16px;
-  margin-right: 10px;
-  background-image: url();
-  background-size: contain;
-  background-position: center;
-  background-color: var(--main-background-color);
-
-  outline: 1px solid royalblue;
-}
-
 /* hero */
 
 .hero {
@@ -244,22 +229,6 @@ ul {
 
 .features-list > .item:not(:last-child) {
   margin-right: 30px;
-}
-
-/* Псевдоэлементы */
-
-.features-list > .item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-  background-image: url();
-  background-size: contain;
-  background-position: center;
-  background: var(--secondary-background-color);
-  border-radius: 4px;
-
-  outline: 1px solid palevioletred;
 }
 
 .feature-title {
