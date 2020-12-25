@@ -43,6 +43,13 @@ ul {
   text-decoration: none;
 }
 
+.text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  color: var(--secondary-color);
+}
+
 /* Скрытие ненужных заголовков */
 .visually-hidden {
   position: absolute;
@@ -203,7 +210,9 @@ ul {
   background-color: var(--accent-color);
   color: var(--dark-main-color);
 }
+
 /* hero-overlay */
+
 .overlay {
   max-width: 1600px;
   max-height: 600px;
@@ -239,6 +248,23 @@ ul {
   margin-right: 30px;
 }
 
+.conteiner-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .feature-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -246,13 +272,6 @@ ul {
   font-weight: var(--bolt-font-weight);
   font-size: 14px;
   text-transform: uppercase;
-}
-
-.text {
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-  color: var(--secondary-color);
 }
 
 .feature-text {
