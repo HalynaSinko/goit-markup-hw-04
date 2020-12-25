@@ -14,6 +14,8 @@
   --dark-main-color: #ffffff;
   --dark-secondary-color: rgba(255, 255, 255, 0.6);
 
+  --main-color-social-links: #afb1b8;
+
   --accent-color: #2196f3;
 }
 
@@ -320,8 +322,8 @@ ul {
 .item-card {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .team-item .employee,
@@ -340,6 +342,43 @@ ul {
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: var(--average-font-weight);
+}
+
+.profession {
+  margin-bottom: 16px;
+}
+
+/* team social links */
+
+.employee-social {
+  display: flex;
+  justify-content: center;
+}
+
+.employee-social > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.employee-link {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color-social-links);
+}
+
+.employee-link:hover,
+.employee-link:focus {
+  background-color: var(--accent-color);
+  color: var(--dark-main-color);
+}
+
+.employee-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 /* customers */
