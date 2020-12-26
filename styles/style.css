@@ -39,7 +39,7 @@ ul {
 }
 
 /* Сброс подчеркивания всех ссылок */
-.link {
+a {
   text-decoration: none;
 }
 
@@ -50,6 +50,10 @@ ul {
   color: var(--secondary-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
 /* Скрытие ненужных заголовков */
 .visually-hidden {
   position: absolute;
@@ -358,11 +362,6 @@ ul {
   text-align: center;
 }
 
-.foto {
-  display: block;
-  max-width: 100%;
-}
-
 .employee {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -373,34 +372,34 @@ ul {
   margin-bottom: 16px;
 }
 
-/* team social links */
+/* employee & join social links */
 
-.employee-social {
+.social-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.employee-social > .item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.employee-link {
+.social-link {
   display: inline-flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+}
+
+.employee-link {
   color: var(--main-color-social-links);
 }
 
-.employee-link:hover,
-.employee-link:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
   color: var(--dark-main-color);
 }
 
-.employee-icon {
+.social-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -456,8 +455,9 @@ ul {
   padding-bottom: 60px;
 }
 
-.footer .conteiner {
-  flex-direction: column;
+.footer-decor {
+  width: 231px;
+  margin-right: 70px;
 }
 
 .logo-footer {
@@ -483,6 +483,24 @@ ul {
 .address {
   font-style: normal;
   line-height: 1.71;
+  color: var(--dark-main-color);
+}
+
+/* join */
+.footer-join {
+  min-width: 206px;
+}
+
+.footer-join > p {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-weight: var(--bolt-font-weight);
+  text-transform: uppercase;
+  color: var(--dark-main-color);
+}
+
+.join-link {
+  background-color: rgba(255, 255, 255, 0.1);
   color: var(--dark-main-color);
 }
 
