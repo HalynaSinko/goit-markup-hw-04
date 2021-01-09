@@ -172,8 +172,8 @@ img {
   fill: currentColor;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact:hover,
+.contact:focus {
   color: var(--accent-color);
 }
 
@@ -305,7 +305,7 @@ img {
 }
 
 .works-item {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .works > .conteiner {
